@@ -1,4 +1,4 @@
-FROM i386/ubuntu:20.04
+FROM i386/ubuntu:18.04
 
 RUN apt-get update && apt-get install --assume-yes curl gcc git libgmp-dev libtinfo-dev libtinfo5 make sudo zlib1g-dev
 
